@@ -8,9 +8,7 @@ describe Game do
   end
 
   it "game has many dice" do
-    (subject.new_dice)
-    (subject.new_dice)
-    (subject.new_dice)
+    3.times { subject.new_dice }
     expect(subject.all_dice.length).to eq 3
   end
 end
