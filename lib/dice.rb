@@ -1,7 +1,7 @@
 class Dice
 
   def roll
-    "dice"
+    2
   end
 
 end
