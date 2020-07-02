@@ -1,32 +1,10 @@
-# Dice_App_1
+Dice App
 
-# The TDD Process
+mkdir Dice_App  
+cd Dice_App  
+rspec --init  
 
-## Learning objectives
-- Explain why we do TDD
-- Describe/diagram TDD as a set of steps
-- Apply TDD following the diagram
 
-## Why do we TDD
-
-There are good reasons to write tests, but why write tests first?
-
-## The steps of TDD
-
-In teams, describe or diagram the process of TDD.
-Your diagram might include: User story, Writing a test, Green, Red, Refactor, Write code, Feature test
-
-## Apply the process
-
-Setup a `dice_app` folder with rspec:
-
-```
-mkdir dice_app
-cd dice_app
-rspec --init
-```
-
-Here are some user stories. For each of them, follow the TDD process from your diagram.
 
 ```
 As a board game player,
